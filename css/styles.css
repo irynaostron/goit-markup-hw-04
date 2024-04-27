@@ -186,6 +186,7 @@ img {
   letter-spacing: 0.04em;
   text-transform: capitalize;
   margin: 0 auto;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-service-btn:hover,
@@ -211,6 +212,12 @@ img {
   padding: 100px 0;
 }
 
+.footer-logo-text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 120px;
+}
+
 .footer-page-text {
   max-width: 264px;
   font-size: 16px;
@@ -233,6 +240,15 @@ img {
 
 .logo-part-footer {
   color: #f4f4fd;
+}
+
+.footer-social-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
 }
 
 .our-team {
