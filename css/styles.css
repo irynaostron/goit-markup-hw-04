@@ -411,7 +411,7 @@ img {
   position: relative;
   overflow: auto;
 }
-.our-portfolio-list-item: hover .overlay-text {
+.our-portfolio-list-item:hover .overlay-text {
   transform: translateY(0%);
 }
 
